@@ -9,6 +9,5 @@ public class Multiple {
             System.out.println(a + "*" + i + "=" + result );
 
         }
-
     }
 }
