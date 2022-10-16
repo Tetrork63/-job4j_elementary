@@ -13,7 +13,7 @@ public class MathFunction {
         return first - second;
     }
 
-    public static double splitting(double first, double second) {
+    public static double divide(double first, double second) {
         return first / second;
     }
 

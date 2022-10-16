@@ -7,20 +7,20 @@ public class MathCalculator {
                 + multiply(first, second);
     }
 
-    public static double subtractionAndSplitting(double first, double second) {
+    public static double subtractionAndDivide(double first, double second) {
         return subtraction(second, first)
-                + splitting(first, second);
+                + divide(first, second);
     }
 
-    public static double sumAndMultiplyAndSubtractionAndSplitting(double first, double second) {
+    public static double sumAndMultiplyAndSubtractionAndDivide(double first, double second) {
         return subtraction(second, first)
-                + splitting(first, second) + sum(first, second)
+                + divide(first, second) + sum(first, second)
                 + multiply(first, second);
     }
 
     public static void main(String[] args) {
         System.out.println("Результат расчета равен: " + sumAndMultiply(10, 20));
-        System.out.println("Результат расчета равен: " + subtractionAndSplitting(10, 20));
-        System.out.println("Результат расчета равен: " + sumAndMultiplyAndSubtractionAndSplitting(10, 20));
+        System.out.println("Результат расчета равен: " + subtractionAndDivide(10, 20));
+        System.out.println("Результат расчета равен: " + sumAndMultiplyAndSubtractionAndDivide(10, 20));
     }
 }
