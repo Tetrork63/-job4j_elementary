@@ -7,9 +7,9 @@ public class Check {
         int counterFalse = 0;
         int counterTrue = 0;
         for (int i = 0; i < data.length; i++) {
-            if (data[i] == false) {
+            if (!data[i]) {
                 counterFalse++;
-            } else if (data[i] == true) {
+            } else if (data[i]) {
                 counterTrue++;
             }
         }
